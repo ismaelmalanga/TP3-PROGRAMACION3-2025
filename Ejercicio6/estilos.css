@@ -1,0 +1,19 @@
+.bajo {
+    background-color: yellow;
+    color: black;
+}
+
+.normal {
+    background-color: green;
+    color: white;
+}
+
+.sobrepeso {
+    background-color: orange;
+    color: white;
+}
+
+.obesidad {
+    background-color: red;
+    color: white;
+}
