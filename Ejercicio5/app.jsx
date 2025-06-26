@@ -45,10 +45,8 @@ function Calculadora() {
         <div>
             <h2>Calculadora React</h2>
             <form onSubmit={hacerCalculo}>
-                <input type="number" value={numUno} onChange={e => setNumUno(e.target.value)} placeholder="Numero 1" required
-                /> <br></br>
-                <input type="number" value={numDos} onChange={e => setNumDos(e.target.value)} placeholder="Numero 2" required
-                /><br></br>
+                <input type="number" value={numUno} onChange={e => setNumUno(e.target.value)} placeholder="Numero 1" required/> <br></br>
+                <input type="number" value={numDos} onChange={e => setNumDos(e.target.value)} placeholder="Numero 2" required/><br></br>
                 <select value={tipoOperacion} onChange={cambiarOperacion}>
                     <option value="suma">SUMA</option>
                     <option value="resta">RESTA</option>
